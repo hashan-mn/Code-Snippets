@@ -105,6 +105,16 @@ dokku domains:enable myapp
 dokku domains:disable myapp
 ```
 
+## GIT Management
+
+```bash
+# Add To Remote Host
+git remote add dokku dokku@YOUR_SERVER_IP:myapp
+
+# Push To Main
+git push dokku main
+```
+
 ## SSL/TLS (Let's Encrypt)
 
 ```bash
