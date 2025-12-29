@@ -53,6 +53,9 @@ dokku git:from-archive myapp https://example.com/app.tar.gz
 # Deploy from Docker image
 dokku git:from-image myapp node:18
 
+# Deploy From Separate Branch
+dokku git:set flow-staging deploy-branch dev
+
 # Rebuild app
 dokku ps:rebuild myapp
 
